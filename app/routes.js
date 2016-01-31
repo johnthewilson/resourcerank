@@ -2,7 +2,17 @@
 
 var Nerd = require('./models/nerd');
 var Javascript = require('./models/javascript');
-var code
+var Codingtools=require('./models/codingtools');
+var Colors=require('./models/colors');
+var Css=require('./models/css');
+var Frameworks=require('./models/frameworks');
+var Grids=require('./models/grids');
+var Images=require('./models/images');
+var Interfacedesign= require('./models/interfacedesign');
+var Texteditors=require('./models/texteditors');
+var Textures=require('./models/textures');
+var Vectors=require('./models/vectors');
+var Wireframing =require('./models/wireframing');
 var express= require('express');
 var router= express.Router();
 
@@ -76,6 +86,23 @@ var router= express.Router();
         //    });
         //
         //});
+        //APi Routing for css
+      //=====================================================================================
+
+        router.route('/css').get(function(req, res) {
+            console.log("osdnvosndvos Hoo ");
+            // use mongoose to get all nerds in the database
+            Css.find(function(err, nerds) {
+                //console.log(nerds);
+                // if there is an error retrieving, send the error.
+                // nothing after res.send(err) will execute
+                if (err)
+                    res.send(err);
+
+                res.json(nerds); // return all nerds in JSON format
+            });
+
+        });
 
         // frontend routes =========================================================
         // route to handle all angular requests
