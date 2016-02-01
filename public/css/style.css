@@ -1,3 +1,96 @@
+/*Styes for the directive*/
+/*|*/
+/*|*/
+/*========================================================================================*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*$grey : */
+/*$blue : */
+.title {
+    color: #343436;
+}
+
+body {
+    background: #000000;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+#list {
+    background: #49483c;
+}
+
+.fa {
+    float: left;
+    color: #999999;
+}
+
+#searchy {
+    position: relative;
+    width: 150px;
+    left: 950px;
+    top: 22px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.header {
+    top: 0px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+    background: #49483c;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #49483c), color-stop(100%, #f4b75d));
+    background: -webkit-linear-gradient(left, #49483c 0%, #f4b75d 100%);
+    background: linear-gradient(to right, #49483c 0%, #f4b75d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49483c', endColorstr='#f4b75d', GradientType=1 );
+    text-align: center;
+    color: #fff;
+}
+
+.author-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.col-50 {
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+
+.item-box {
+    background: #fff;
+    border-radius: 4px;
+    padding: 30px;
+    width: 100%;
+    overflow: hidden;
+    font-size: .5em;
+    list-style-type: none;
+    text-overflow: ellipsis;
+}
+.item-box .inner-content {
+    text-align: center;
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item-box .inner-content .author-info {
+    font-size: 1.5rem;
+}
+
+
 
 
 /* Toggle Styles */
