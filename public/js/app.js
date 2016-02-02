@@ -1,11 +1,11 @@
 'use strict';
 
-var resourceRank = angular.module('resourceRank', ['ui.router'])
+var resourceRank = angular.module('resourceRank', ['ui.router','app.directives.model' ])
 
    .config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home');
-  console.log("skvbsdjhgbs");
+  //console.log("main app.js(angular state controller)");
     $stateProvider
 
     // HOME STATES AND NESTED VIEWS ========================================
@@ -21,6 +21,72 @@ var resourceRank = angular.module('resourceRank', ['ui.router'])
             url: '/javascript',
             templateUrl: '../partials/partials-all.html',
             controller:"JavascriptController"
-        });
+        })
+        .state('codingtools', {
+            // we'll get to this in a bit
+            url: '/codingtools',
+            templateUrl: '../partials/partials-all.html',
+            controller:"CodingToolsController"
+        })
+        .state('colors', {
+            // we'll get to this in a bit
+            url: '/colors',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('css', {
+            // we'll get to this in a bit
+            url: '/css',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('frameworks', {
+            // we'll get to this in a bit
+            url: '/frameworks',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('grids', {
+            // we'll get to this in a bit
+            url: '/grids',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('images', {
+            // we'll get to this in a bit
+            url: '/images',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('interfacedesign', {
+            // we'll get to this in a bit
+            url: '/interfacedesign',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('texteditors', {
+            // we'll get to this in a bit
+            url: '/texteditors',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('textures', {
+            // we'll get to this in a bit
+            url: '/textures',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('vectors', {
+            // we'll get to this in a bit
+            url: '/vectors',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
+        .state('wireframing', {
+            // we'll get to this in a bit
+            url: '/wireframing',
+            templateUrl: '../partials/partials-all.html',
+            controller:"JavascriptController"
+        })
 
 });

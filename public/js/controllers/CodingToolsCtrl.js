@@ -1,13 +1,13 @@
 /**
  * Created by johnwilson on 2/1/16.
  */
-resourceRank.controller('JavascriptController', function($scope, Nerd) {
+resourceRank.controller('CodingToolsController', function($scope, Nerd) {
 
     $scope.tagline = 'To the sun of Javscript and back!';
     $scope.test= "I am a stest";
     //$scope.data= Nerd.get();
     //  console.log(data.results);
-    Nerd.get("javascript").success(function(data){
+    Nerd.get("codingtools").success(function(data){
         $scope.todos = data;
         console.log(data, status);
     }).error(function(data, status){
@@ -15,4 +15,13 @@ resourceRank.controller('JavascriptController', function($scope, Nerd) {
         $scope.todos = [];
     });
 
-})
+}).directive('myModel', function() {
+    return {
+        scope: {
+            item: '=resources'
+        },
+        restrict: 'E',
+        templateUrl: '../partials/partial-list.html'
+    };
+
+});
