@@ -62,7 +62,7 @@ var resourceRank = angular.module('resourceRank', ['ui.router','app.directives.m
             // we'll get to this in a bit
             url: '/interfacedesign',
             templateUrl: '../partials/partials-all.html',
-            controller:"InteraceDesignController"
+            controller:"InterfaceDesignController"
         })
         .state('texteditors', {
             // we'll get to this in a bit

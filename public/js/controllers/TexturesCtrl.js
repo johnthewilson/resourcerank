@@ -3,7 +3,7 @@
  */
 resourceRank.controller('TexturesController', function($scope, Nerd) {
 
-    $scope.tagline = 'To the sun of Javscript and back!';
+    $scope.tagline = 'Textures!';
     $scope.test= "I am a stest";
     //$scope.data= Nerd.get();
     // console.log(data.results);

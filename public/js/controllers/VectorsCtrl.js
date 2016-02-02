@@ -3,7 +3,7 @@
  */
 resourceRank.controller('VectorsController', function($scope, Nerd) {
 
-    $scope.tagline = 'To the sun of Javscript and back!';
+    $scope.tagline = 'Vectors!';
     $scope.test= "I am a stestVectors";
     //$scope.data= Nerd.get();
     // console.log(data.results);
