@@ -57,6 +57,16 @@ body {
     color: #fff;
 }
 
+.main-item{
+    color:#46AB62;
+}
+.desc{
+    font-size: 14px;
+
+}
+.price{
+        color:#ABAFAD;
+}
 .author-image {
     height: 70px;
     width: 70px;
