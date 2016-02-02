@@ -15,4 +15,4 @@ resourceRank.controller('JavascriptController', function($scope, Nerd) {
         $scope.todos = [];
     });
 
-})
+});

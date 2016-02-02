@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eeffd12-98f3-4a94-bccb-be92f2437a03" name="Default" comment="&quot;Rest Api reaady to serve&quot;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/CodingToolsCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/CssCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/FrameworksCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/GridsCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/InterfaceDesignCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/TextEditorsCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/TexturesCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/VectorsCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/WireframingCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/controllers/colorsCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/directives/modelDirective.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/appRoutes.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/services/NerdService.js" afterPath="$PROJECT_DIR$/public/js/services/allService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/images.js" afterPath="$PROJECT_DIR$/app/models/images.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/texteditors.js" afterPath="$PROJECT_DIR$/app/models/texteditors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/vectors.js" afterPath="$PROJECT_DIR$/app/models/vectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/interfacedesign.js" afterPath="$PROJECT_DIR$/app/models/interfacedesign.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.js" afterPath="$PROJECT_DIR$/app/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/CodingToolsCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/CodingToolsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/CssCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/CssCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/FrameworksCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/FrameworksCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/GridsCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/GridsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/InterfaceDesignCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/InterfaceDesignCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/JavascriptCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/JavascriptCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/TextEditorsCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/TextEditorsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/TexturesCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/TexturesCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/VectorsCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/VectorsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/WireframingCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/WireframingCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/colorsCtrl.js" afterPath="$PROJECT_DIR$/public/js/controllers/colorsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/partials-all.html" afterPath="$PROJECT_DIR$/public/partials/partials-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="scotch_mean_tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,24 +42,14 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.4398217">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.62929064">
+        <splitter split-orientation="vertical" split-proportion="0.6178161">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="ImagesCtrl.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js">
+              <file leaf-file-name="MainCtrl.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state vertical-scroll-proportion="0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="javascript.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/app/models/javascript.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                      <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -73,38 +59,80 @@
                 <entry file="file://$PROJECT_DIR$/public/js/controllers/InterfaceDesignCtrl.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state vertical-scroll-proportion="0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                      <folding>
+                        <element signature="e#0#43#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="interfacedesign.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/app/models/interfacedesign.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.6236324">
+                      <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="TextEditorsCtrl.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/public/js/controllers/TextEditorsCtrl.js">
+              <file leaf-file-name="ImagesCtrl.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state vertical-scroll-proportion="0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
+                      <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+                      <folding>
+                        <element signature="e#0#43#0" expanded="false" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="TexturesCtrl.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/public/js/controllers/TexturesCtrl.js">
+              <file leaf-file-name="GridsCtrl.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/js/controllers/GridsCtrl.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state vertical-scroll-proportion="0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
+                      <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+                      <folding>
+                        <element signature="e#0#43#0" expanded="false" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="VectorsCtrl.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/public/js/controllers/VectorsCtrl.js">
+              <file leaf-file-name="FrameworksCtrl.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/js/controllers/FrameworksCtrl.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state vertical-scroll-proportion="0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
+                      <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+                      <folding>
+                        <element signature="e#1#44#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="CssCtrl.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/js/controllers/CssCtrl.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+                      <folding>
+                        <element signature="e#7#50#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="colorsCtrl.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/public/js/controllers/colorsCtrl.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+                      <folding>
+                        <element signature="e#0#43#0" expanded="false" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -113,18 +141,10 @@
                 <entry file="file://$PROJECT_DIR$/public/js/controllers/WireframingCtrl.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state vertical-scroll-proportion="0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="JavascriptCtrl.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/public/js/controllers/JavascriptCtrl.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-                      <folding />
+                      <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                      <folding>
+                        <element signature="e#0#43#0" expanded="false" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -133,19 +153,7 @@
                 <entry file="file://$PROJECT_DIR$/public/js/controllers/CodingToolsCtrl.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state vertical-scroll-proportion="0.0">
-                      <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-                      <folding>
-                        <element signature="e#0#43#0" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="modelDirective.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/public/js/directives/modelDirective.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.4400978">
-                      <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                      <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                       <folding>
                         <element signature="e#0#43#0" expanded="false" />
                       </folding>
@@ -160,28 +168,8 @@
               <file leaf-file-name="partials-all.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public/partials/partials-all.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.2184466">
-                      <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/bower.json">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-8.125">
-                      <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/.bowerrc">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                    <state vertical-scroll-proportion="0.30120483">
+                      <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
                       <folding />
                     </state>
                   </provider>
@@ -206,8 +194,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.0">
-                  <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+                <state vertical-scroll-proportion="-20.625">
+                  <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -217,7 +205,7 @@
             <entry file="file://$PROJECT_DIR$/app/routes.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="506" column="33" selection-start-line="506" selection-start-column="33" selection-end-line="506" selection-end-column="33" />
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -238,8 +226,8 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24700598">
-                  <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+                <state vertical-scroll-proportion="1.146245">
+                  <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -315,7 +303,6 @@
         <option value="$PROJECT_DIR$/app/models/codeingtools.js" />
         <option value="$PROJECT_DIR$/app/models/textures.js" />
         <option value="$PROJECT_DIR$/app/models/frameworks.js" />
-        <option value="$PROJECT_DIR$/app/models/interfacedesign.js" />
         <option value="$PROJECT_DIR$/app/models/wireframing.js" />
         <option value="$PROJECT_DIR$/app/models/colors.js" />
         <option value="$PROJECT_DIR$/app/models/css.js" />
@@ -325,36 +312,37 @@
         <option value="$PROJECT_DIR$/app/models/javascript.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/public/js/appRoutes.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/public/js/controllers/MainCtrl.js" />
         <option value="$PROJECT_DIR$/public/js/controllers/JavascriptCtlr.js" />
         <option value="$PROJECT_DIR$/public/partials/partial-home.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/public/partials/partial-list.html" />
-        <option value="$PROJECT_DIR$/app/routes.js" />
         <option value="$PROJECT_DIR$/app/models/texteditors.js" />
         <option value="$PROJECT_DIR$/app/models/images.js" />
         <option value="$PROJECT_DIR$/app/models/vectors.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/public/js/controllers/colorsCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/CssCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/FrameworksCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/GridsCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/InterfaceDesignCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/TextEditorsCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/TexturesCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/VectorsCtrl.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/WireframingCtrl.js" />
         <option value="$PROJECT_DIR$/public/js/services/NerdService.js" />
         <option value="$PROJECT_DIR$/public/js/services/JavascriptService.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/CodingToolsCtrl.js" />
         <option value="$PROJECT_DIR$/public/js/services/allService.js" />
-        <option value="$PROJECT_DIR$/public/js/controllers/JavascriptCtrl.js" />
         <option value="$PROJECT_DIR$/public/js/directives/modelDirective.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/public/partials/partials-all.html" />
+        <option value="$PROJECT_DIR$/public/js/controllers/JavascriptCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/CodingToolsCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/WireframingCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/VectorsCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/TexturesCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/TextEditorsCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/InterfaceDesignCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/GridsCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/FrameworksCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/CssCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/controllers/colorsCtrl.js" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/app/routes.js" />
+        <option value="$PROJECT_DIR$/app/models/interfacedesign.js" />
       </list>
     </option>
   </component>
@@ -438,47 +426,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ResourceRank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resourcerank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ResourceRank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resourcerank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,24 +471,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ResourceRank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resourcerank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,7 +614,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17826618" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -695,7 +625,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2897959" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19693878" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -839,34 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.30523255">
-            <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.51724136">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/partials/partial-home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875">
@@ -960,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/interfacedesign.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/texteditors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -975,14 +869,6 @@
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/textures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +895,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1022,128 +908,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/colorsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/CssCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="e#7#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/FrameworksCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/GridsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/InterfaceDesignCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/TextEditorsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/TexturesCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/VectorsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/WireframingCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/services/allService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/CodingToolsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/controllers/JavascriptCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="506" column="33" selection-start-line="506" selection-start-column="33" selection-end-line="506" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1156,36 +924,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.51724136">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/partials/partials-all.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2184466">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/directives/modelDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4400978">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/JavascriptCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/partials-all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30120483">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/CodingToolsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/WireframingCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/VectorsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4595186">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/TexturesCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49234137">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/TextEditorsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2297593">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/services/allService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/ImagesCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/GridsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/FrameworksCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#1#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/CssCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#7#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/colorsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/MainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/textures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/InterfaceDesignCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/interfacedesign.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6236324">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.625">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24700598">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state vertical-scroll-proportion="1.146245">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding />
         </state>
       </provider>

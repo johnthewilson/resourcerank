@@ -6,7 +6,7 @@ resourceRank.controller('CodingToolsController', function($scope, Nerd) {
     $scope.tagline = 'To the sun of Javscript and back!';
     $scope.test= "I am a stest";
     //$scope.data= Nerd.get();
-    //  console.log(data.results);
+    // console.log(data.results);
     Nerd.get("codingtools").success(function(data){
         $scope.todos = data;
         console.log(data, status);
@@ -14,14 +14,5 @@ resourceRank.controller('CodingToolsController', function($scope, Nerd) {
         console.log(data, status);
         $scope.todos = [];
     });
-
-}).directive('myModel', function() {
-    return {
-        scope: {
-            item: '=resources'
-        },
-        restrict: 'E',
-        templateUrl: '../partials/partial-list.html'
-    };
 
 });

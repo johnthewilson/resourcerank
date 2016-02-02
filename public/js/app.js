@@ -32,61 +32,61 @@ var resourceRank = angular.module('resourceRank', ['ui.router','app.directives.m
             // we'll get to this in a bit
             url: '/colors',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"ColorsController"
         })
         .state('css', {
             // we'll get to this in a bit
             url: '/css',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"CssController"
         })
         .state('frameworks', {
             // we'll get to this in a bit
             url: '/frameworks',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"FrameworksController"
         })
         .state('grids', {
             // we'll get to this in a bit
             url: '/grids',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"GridsController"
         })
         .state('images', {
             // we'll get to this in a bit
             url: '/images',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"ImagesController"
         })
         .state('interfacedesign', {
             // we'll get to this in a bit
             url: '/interfacedesign',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"InteraceDesignController"
         })
         .state('texteditors', {
             // we'll get to this in a bit
             url: '/texteditors',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"TextEditorsController"
         })
         .state('textures', {
             // we'll get to this in a bit
             url: '/textures',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"TexturesController"
         })
         .state('vectors', {
             // we'll get to this in a bit
             url: '/vectors',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"VectorsController"
         })
         .state('wireframing', {
             // we'll get to this in a bit
             url: '/wireframing',
             templateUrl: '../partials/partials-all.html',
-            controller:"JavascriptController"
+            controller:"WireframingController"
         })
 
 });

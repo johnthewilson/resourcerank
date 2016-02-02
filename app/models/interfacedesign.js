@@ -14,6 +14,6 @@ var interfacedesign = new mongoose.Schema({
     link : {type : String, default: ''},
     url : {type : String, default: ''},
     api : {type : String, default: ''}
-}, { collection: 'Interfacedesign'});
+}, { collection: 'InterfaceDesign'});
 
-module.exports = mongoose.model('Interfacedesign', interfacedesign);
+module.exports = mongoose.model('InterfaceDesign', interfacedesign);

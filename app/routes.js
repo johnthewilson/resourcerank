@@ -8,7 +8,7 @@ var Css=require('./models/css');
 var Frameworks=require('./models/frameworks');
 var Grids=require('./models/grids');
 var Images=require('./models/images');
-var Interfacedesign= require('./models/interfacedesign');
+var InterfaceDesign= require('./models/interfacedesign');
 var Texteditors=require('./models/texteditors');
 var Textures=require('./models/textures');
 var Vectors=require('./models/vectors');
@@ -329,7 +329,7 @@ router.route('/images').post(function(req,res){
 router.route('/interfacedesign').get(function(req, res) {
     console.log("osdnvosndvos Hoo ");
     // use mongoose to get all nerds in the database
-    Interfacedesign.find(function(err, nerds) {
+    InterfaceDesign.find(function(err, nerds) {
         //console.log(nerds);
         // if there is an error retrieving, send the error.
         // nothing after res.send(err) will execute
@@ -343,7 +343,7 @@ router.route('/interfacedesign').get(function(req, res) {
 
 // post
 router.route('/interfacedesign').post(function(req,res){
-    var interfacedesign =new Interfacedesign();
+    var interfacedesign =new InterfaceDesign();
     interfacedesign.name=req.body.name;
     interfacedesign.about=req.body.about;
     interfacedesign.link=req.body.link;
