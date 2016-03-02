@@ -12,7 +12,9 @@ resourceRank.factory('Nerd', ['$http', function($http) {
 
                 // these will work when more API routes are defined on the Node side of things
         // call to POST and create a new nerd
-        create : function(nerdData) {
+        create : function(nerdData,p) {
+
+
             return $http.post('/api/javascript', nerdData);
         },
 
